@@ -15,4 +15,11 @@ public class AnimalsController : ControllerBase
         var Animals = new MockDb().Animals;
         return Ok(animals);
     }
+    [HttpGet("{id}")]
+    public IActionResult GetAnimals(int id)
+    {
+        var animals = StaticData.animals;
+        var Animals = new MockDb().Animals;
+        return Ok(animals);
+    }
 }

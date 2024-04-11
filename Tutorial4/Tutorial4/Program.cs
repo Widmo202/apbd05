@@ -28,6 +28,6 @@ app.MapAnimalsEndpoints();
 
 // Controllers
 
-app.MapControllers();
+//app.MapControllers();
 
 app.Run();
